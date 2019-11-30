@@ -3,7 +3,6 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
   },
-  parser: 'babel-eslint',
   env: {
     node: true,
     browser: true,
