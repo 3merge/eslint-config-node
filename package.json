@@ -5,15 +5,18 @@
   "repository": "https://github.com/3merge/eslint-config-node.git",
   "author": "Mike <mibberson@3merge.ca>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^6.4.0",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.17.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
     "prettier": "^1.18.2"
   },
   "devDependencies": {
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.3.0"
+    "typescript": "^4.5.2"
   }
 }
