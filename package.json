@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-node-3merge",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "repository": "https://github.com/3merge/eslint-config-node.git",
   "author": "Mike <mibberson@3merge.ca>",
